@@ -32,8 +32,6 @@ const player = {
     for (let key in player.events) {
       if (player.events.hasOwnProperty(key)) {
         const value = player.events[key];
-        console.log(value);
-        console.log(key);
         $(key).click(player[value]);
       }
     }
@@ -56,24 +54,19 @@ const player = {
     }
   },
   play: () => {
-    console.log("播放");
     player.id = setInterval(player.run, player.time);
   },
   pause: () => {
-    console.log("暂停");
     clearInterval(player.id);
   },
 
   fast: () => {
-    console.log("快速");
     player.pause(), (player.time = 0), player.play();
   },
   normal: () => {
-    console.log("正常");
     player.pause(), (player.time = 100), player.play();
   },
   slow: () => {
-    console.log("慢");
     player.pause(), (player.time = 200), player.play();
   },
 };
