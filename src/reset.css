@@ -46,13 +46,37 @@ body {
   width: 52px;
   height: 15px;
 }
+.eyebrow {
+  position: absolute;
+  top: 10px;
+  width: 11px;
+  height: 6px;
+  border-left: 1px solid transparent;
+  border-right: 1px solid transparent;
+}
 .arm {
   position: absolute;
   top: 75px;
-
   width: 19px;
   height: 55px;
   border-radius: 0 0 15px 15px;
+}
+.zhe {
+  width: 32px;
+  height: 22px;
+  position: absolute;
+  top: 35px;
+  left: 54%;
+  margin-left: -20px;
+  z-index: 5;
+}
+.body .belly {
+  position: absolute;
+  top: 70px;
+  left: px;
+  height: 96px;
+  width: 90px;
+  z-index: 2;
 }
 @keyframes move-eye {
   0% {

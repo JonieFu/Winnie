@@ -1,1 +1,2 @@
-![winnie](https://github.com/JonieFu/Winnie/blob/master/img/winnie.png)
+
+![winnie](https://joniefu.github.io/Moving-Winnie/img/winnie.png)

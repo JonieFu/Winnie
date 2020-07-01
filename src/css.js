@@ -1,9 +1,9 @@
 const string = `
+/*先画维尼的耳朵*/
 .head .ear {
   border: 1px solid #ffd400;
   border-radius: 50%;
   background-color: #ffd400;
-  
 }
 .head .left {
   left: 4px;
@@ -11,6 +11,7 @@ const string = `
 .head .right {
   right: 4px;
 }
+/*画维尼的脸*/
 .head .face {
   border: 1px solid #ffd400;
   background-color: #ffd400;
@@ -33,29 +34,21 @@ const string = `
   border-radius: 0px 20 20px;
   z-index: 1px;
 }
-
-.eyebrow {
-  position: absolute;
-  top: 10px;
-  width: 11px;
-  height: 6px;
+/*画维尼的眉毛*/
+.eyebrow{
   border-top: 2px solid black;
-  border-left: 1px solid transparent;
-  border-right: 1px solid transparent;
-  border-top-left-radius:40%;
-  border-top-right-radius:40%
+  border-top-left-radius: 40%;
+  border-top-right-radius: 40%;
 }
 .eyebrow-left {
   left: 2px;
   transform: rotate(-12deg);
-
 }
 .eyebrow-right {
   right: 2px;
   transform: rotate(12deg);
-
 }
-
+/*画维尼的眼睛*/
 .eye {
   position: absolute;
   top: 20px;
@@ -64,7 +57,6 @@ const string = `
   width: 6px;
   height: 7px;
   border-radius: 60%;
- 
   z-index:6
 }
 .eye-left {
@@ -73,6 +65,7 @@ const string = `
 .eye-right {
   right: 5px;
 }
+/*画维尼的鼻子*/
 .nose {
   border: 1px solid black;
   background: black;
@@ -86,16 +79,10 @@ const string = `
   z-index: 6;
 }
 .zhe {
-  width: 32px;
-  height: 22px;
   background-color: #ffd400;
-  position: absolute;
-  top: 35px;
-  left: 54%;
-  margin-left: -20px;
   border: 1px solid #ffd400;
-  z-index: 5;
 }
+/*画维尼的嘴巴*/
 .mouth {
   width: 30px;
   height: 30px;
@@ -114,16 +101,12 @@ const string = `
   animation: move-eye 3s ease infinite;
   transition: all 3s;
 }
+/*画维尼的身子*/
 .body .belly {
-  position: absolute;
-  top: 70px;
-  left: px;
   background-color: #ffd400;
-  height: 96px;
-  width: 90px;
   border-radius: 70% 70% 80% 80%;
-  z-index: 2;
 }
+/*画维尼的胳膊*/
 .arm {
   background-color: #ffd400;
 }
@@ -135,6 +118,7 @@ const string = `
   right: -10px;
   transform: rotate(-40deg);
 }
+/*给维尼穿衣服*/
 .clothes{
   position: absolute;
   top: 69px;
@@ -161,6 +145,7 @@ const string = `
 .arm-left > .left {
   transform: translateX(-2px);
 }
+/*画维尼的腿*/
 .leg {
   width: 22px;
   height: 40px;
