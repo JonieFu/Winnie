@@ -1,21 +1,9 @@
 const string = `
-.bear {
-  border:1px solid #ffd400;
-  position: relative;
-  width: 91px;
-  height: 220px;
-  margin-left: auto;
-  margin-right: auto;
-  top: 80px;
-}
 .head .ear {
   border: 1px solid #ffd400;
-  width: 22px;
-  height: 22px;
-  position: absolute;
   border-radius: 50%;
   background-color: #ffd400;
-  z-index: 10;
+  
 }
 .head .left {
   left: 4px;
@@ -40,17 +28,12 @@ const string = `
   margin-left: -1px;
   margin-right: -1px;
   border-bottom: 49px solid #ffd400;
-  border-left: 19px solid #f8f8f8;
-  border-right: 19px solid #f8f8f8;
+  border-left: 19px solid #c3620d;
+  border-right: 19px solid #c3620d;
   border-radius: 0px 20 20px;
   z-index: 1px;
 }
-.eyebrowWrapper{
-  position:absolute;
-  top: 0;
-  width:52px;
-  height:15px;
-}
+
 .eyebrow {
   position: absolute;
   top: 10px;
@@ -142,12 +125,7 @@ const string = `
   z-index: 2;
 }
 .arm {
-  position: absolute;
-  top: 75px;
   background-color: #ffd400;
-  width: 19px;
-  height: 55px;
-  border-radius: 0 0 15px 15px;
 }
 .arm-left {
   left: -10px;
@@ -183,14 +161,13 @@ const string = `
 .arm-left > .left {
   transform: translateX(-2px);
 }
-
 .leg {
-  border: 1px solid #ffd400;
-  background-color: #ffd400;
   width: 22px;
   height: 40px;
   position: absolute;
   bottom: 36px;
+  border: 1px solid #ffd400;
+  background-color: #ffd400;
 }
 .leg-left {
   left: 8px;
